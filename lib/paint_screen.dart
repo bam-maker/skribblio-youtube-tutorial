@@ -123,7 +123,7 @@ class _PaintScreenState extends State<PaintScreen> {
                 paint: Paint()
                   ..strokeCap = strokeType
                   ..isAntiAlias = true
-                  ..color = selectedColor.withOpacity(opacity)
+                  ..color = selectedColor.withValues()
                   ..strokeWidth = strokeWidth));
           });
         }

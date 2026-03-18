@@ -64,10 +64,10 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
             style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.blue),
+                backgroundColor: WidgetStateProperty.all(Colors.blue),
                 textStyle:
-                    MaterialStateProperty.all(TextStyle(color: Colors.white)),
-                minimumSize: MaterialStateProperty.all(
+                    WidgetStateProperty.all(TextStyle(color: Colors.white)),
+                minimumSize: WidgetStateProperty.all(
                     Size(MediaQuery.of(context).size.width / 2.5, 50))),
           ),
         ],
